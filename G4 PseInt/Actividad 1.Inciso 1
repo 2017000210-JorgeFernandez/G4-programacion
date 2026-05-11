@@ -1,0 +1,22 @@
+Algoritmo KiloM
+	
+    Definir peso, total Como Real
+	
+    total <- 0
+	
+    Escribir "Nombre: Jorge Fernández"
+	
+    Mientras total < 1 Hacer
+		
+        Escribir "Ingrese el peso de la manzana en kilos:"
+        Leer peso
+		
+        total <- total + peso
+		
+        Escribir "Peso acumulado: ", total, " kilos"
+		
+    FinMientras
+	
+    Escribir "Ya tienes 1 kilo o mas de manzanas"
+	
+FinAlgoritmo

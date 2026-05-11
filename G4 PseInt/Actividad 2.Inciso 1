@@ -1,0 +1,22 @@
+Algoritmo  Videojuego
+	
+    Definir monedas, ganadas Como Entero
+	
+    monedas <- 0
+	
+    Escribir "Nombre: Jorge Fernández"
+	
+    Mientras monedas < 350 Hacer
+		
+        Escribir "Ingrese las monedas ganadas:"
+        Leer ganadas
+		
+        monedas <- monedas + ganadas
+		
+        Escribir "Monedas acumuladas: ", monedas
+		
+    FinMientras
+	
+    Escribir "Nivel 5 desbloqueado"
+	
+FinAlgoritmo

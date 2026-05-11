@@ -1,0 +1,21 @@
+Algoritmo  NumerosI
+	
+    Definir num, i Como Entero
+	
+    Escribir "Nombre: Jorge Fernández"
+	
+    Escribir "Ingrese un numero:"
+    Leer num
+	
+    Para i <- 20 Hasta num Hacer
+		
+        Si i MOD 2 <> 0 Entonces
+			
+            Escribir i
+			
+        FinSi
+		
+    FinPara
+	
+FinAlgoritmo
+
